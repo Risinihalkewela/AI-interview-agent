@@ -1,91 +1,155 @@
-AI Interview Coach + CV Optimization Agent 🎯  
-A true autonomous AI agent built in Python using Streamlit and the Google Gemini API.  
-This system goes beyond a chatbot — it perceives, reasons, acts, and learns to maximize interview readiness over time.
+# AI Interview Coach + CV Optimization Agent 🎯
 
-🚀 Features
-Job Module
+An autonomous AI agent built using Python, Streamlit, and Google Gemini API to improve interview readiness through adaptive questioning, CV optimization, and performance tracking.
 
-Input: company, role, level, responsibilities, requirements
+## Overview
 
-Output: company summary + 20+ HR & technical questions
+This system goes beyond a traditional chatbot by combining:
 
-CV Module
+- CV analysis and ATS optimization
+- Adaptive interview simulation
+- Performance scoring and feedback
+- Memory-based learning and question adaptation
+- Career guidance chatbot support
 
-Upload PDF/DOCX CV
+The goal is to maximize interview readiness by continuously identifying weaknesses and improving future sessions.
 
-Extract text, analyze vs job description
+---
 
-Identify strengths, weaknesses, missing skills, ATS issues
+## Features
 
-Rewrite CV (ATS‑optimized, aligned to job, no fabricated experience)
+## Job Module
 
-Download as PDF/DOCX
+Input:
+- Company
+- Role
+- Experience level
+- Responsibilities
+- Requirements
 
-Interview Module (Adaptive)
+Output:
+- Company summary
+- 20+ HR questions
+- Technical interview questions
 
-Dynamic questions based on weak skills & past scores
+---
 
-Structured feedback: strengths, weaknesses, improvements
+## CV Analysis Module
 
-Scores (Technical, Communication, Confidence)
+Supports:
+- PDF upload
+- DOCX upload
 
-Difficulty escalates as performance improves
+Functions:
+- Extract CV content
+- Compare CV against job description
+- Detect skill gaps
+- Identify ATS issues
+- Highlight strengths and weaknesses
+- Rewrite CV aligned with job requirements
 
-Decision Logic
+Export:
+- ATS-optimized PDF
+- ATS-optimized DOCX
 
-Explicit rules (e.g., if technical score < 3 → more technical questions)
+---
 
-CV gaps seed interview questions
+## Adaptive Interview Module
 
-Avoids repeating similar questions
+Features:
+- Dynamic interview questions based on weak areas
+- Difficulty escalation based on performance
+- No repetitive questioning
+- Targeted skill-based questioning
 
-Memory System
+Evaluation categories:
+- Technical skills
+- Communication
+- Confidence
 
-Stores weak skills, scores, CV gaps, question history
+---
 
-Learns from every answer → adapts future sessions
+## Decision Engine
 
-Dashboard
+Rule-based reasoning:
 
-Progress bars, overall score, performance trends
+- Low technical score → increase technical questions
+- CV skill gaps → generate targeted questions
+- High performance → increase difficulty
+- Repeated weaknesses → reinforce practice
 
-Category‑wise charts, weak areas, full Q&A review
+---
 
-One‑click PDF report
+## Memory System
 
-Chatbot
+Stores:
+- Weak skills
+- Previous scores
+- Question history
+- CV skill gaps
 
-Context‑aware career prep advice based on job + CV
+Enables:
+- Learning from previous sessions
+- Personalized interview adaptation
+- Progress tracking over time
 
-🧠 Agent Architecture
-Perceive → job inputs, CV, answers, past scores
+---
 
-Reason → detect gaps, identify weak areas, decide next action
+## Dashboard Analytics
 
-Act → generate questions, evaluate answers, rewrite CV, produce reports
+Includes:
+- Performance trends
+- Weak area identification
+- Category-wise score charts
+- Full interview review
+- Downloadable PDF reports
 
-Learn → update memory, adapt future behavior, avoid repetition
+---
 
-📂 Tech Stack
-Python (single .py file, modular class design)
+## Career Chatbot
 
-Streamlit (UI with tabs: Job Input, CV Analysis, Interview, Dashboard)
+Provides:
+- Context-aware career advice
+- Interview preparation strategies
+- Role-specific guidance
 
-Google Gemini API (via .env key)
+---
 
-pdfplumber, python-docx (CV parsing)
+## Agent Architecture
 
-reportlab (PDF export)
+Perceive → Collects job requirements, CV content, answers, and past scores
 
-matplotlib / plotly (visualizations)
+Reason → Identifies weaknesses, skill gaps, and next best action
 
-📌 Why This Is a True AI Agent
-Has a goal: maximize interview readiness
+Act → Generates questions, evaluates answers, rewrites CV, creates reports
 
-Uses memory: stores and adapts based on past sessions
+Learn → Updates memory and improves future interview sessions
 
-Shows reasoning: explicit decision rules visible to the user
+---
 
-Demonstrates adaptation: difficulty and topics change dynamically
+## Tech Stack
 
-Implements learning: future behavior evolves with every answer
+- Python
+- Streamlit
+- Google Gemini API
+- pdfplumber
+- python-docx
+- reportlab
+- matplotlib
+- plotly
+
+---
+
+
+## Future Improvements
+
+- Voice-based mock interviews
+- Real-time emotion analysis
+- Resume benchmarking against industry standards
+- Multi-company interview preparation
+- AI-generated behavioral simulations
+
+---
+
+
+BSc Applied Data Science Communication Undergraduate
