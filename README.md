@@ -1,5 +1,5 @@
-AI Interview Coach + CV Optimization Agent 🎯
-A true autonomous AI agent built in Python using Streamlit and the Google Gemini API.
+AI Interview Coach + CV Optimization Agent 🎯  
+A true autonomous AI agent built in Python using Streamlit and the Google Gemini API.  
 This system goes beyond a chatbot — it perceives, reasons, acts, and learns to maximize interview readiness over time.
 
 🚀 Features
